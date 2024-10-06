@@ -114,6 +114,9 @@
     return false
     }
         }
+        setInterval(() => {
+            tokenExpire(token);
+          }, 100000); // Checks every 180 seconds
     </script>
 </body>
 </html>
